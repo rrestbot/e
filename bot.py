@@ -33,9 +33,7 @@ async def forward(update: Update, context: ContextTypes.DEFAULT_TYPE):
         return
     save_user(user_id)
     msg = update.message
-    tags = "
-
-#viral #hot #virallink"
+    tags = "\n\n#viral #hot #virallink"
     btns = [[InlineKeyboardButton("👍", callback_data="vote_up"),
              InlineKeyboardButton("👎", callback_data="vote_down")]]
     reply_markup = InlineKeyboardMarkup(btns)
