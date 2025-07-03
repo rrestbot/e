@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, fil
 import json, os
 from utils import save_user, is_banned, log_vote
 
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+BOT_TOKEN = "8178107890:AAGPydDbr2n2xRjsU-j4VChQ4mS1jQgQ6Qw"
 CHANNEL_ID = -1002831436891
 
 # /start command
